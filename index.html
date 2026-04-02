@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Prajwal Rai – Aspiring Software Engineer & IoT Enthusiast. BSc Computing student at Itahari International College." />
+  <meta name="keywords" content="Prajwal Rai, Software Engineer, IoT, Web Development, Portfolio, Nepal" />
+  <meta name="author" content="Prajwal Rai" />
+  <title>Prajwal Rai | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">PR<span class="dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
+      <a href="cv/Prajwal_Rai_CV.pdf" download class="btn-cv">
+        <i class="fas fa-download"></i> Download CV
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO / HOME ========== -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-text fade-up">
+        
+        <h1 class="hero-heading">
+          Hi, I'm<br />
+          <span class="gradient-text">Prajwal Rai</span>
+        </h1>
+        <p class="hero-subtitle">Aspiring Software Engineer &amp; IoT Enthusiast</p>
+        <p class="hero-intro">
+          BSc (Hons) Computing student passionate about web development, IoT, and software engineering — building real-world solutions one project at a time.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">
+            <span>View Projects</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">2+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">2nd</span>
+            <span class="stat-label">Year Student</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">5+</span>
+            <span class="stat-label">Tech Stacks</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image fade-in">
+        <div class="image-wrapper">
+          <div class="image-ring ring-1"></div>
+          <div class="image-ring ring-2"></div>
+          <div class="profile-frame">
+            <img src="images/profile.jpeg" alt="Prajwal Rai" class="profile-image">
+          </div>
+          <div class="floating-chip chip-1">
+            <i class="fab fa-react"></i> React.js
+          </div>
+          <div class="floating-chip chip-2">
+            <i class="fas fa-microchip"></i> Arduino
+          </div>
+          <div class="floating-chip chip-3">
+            <i class="fab fa-node-js"></i> Node.js
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">The Story So Far</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-bio fade-up">
+          <div class="glass-card bio-card">
+            <div class="card-icon"><i class="fas fa-user-circle"></i></div>
+            <h3>Who I Am</h3>
+            <p>
+              I'm Prajwal Rai, a 2nd-year BSc (Hons) Computing student at Itahari International College, Nepal. I'm driven by a deep curiosity about how technology can address everyday problems — whether through intelligent web platforms or smart IoT devices.
+            </p>
+            <p>
+              My journey in tech has taken me through full-stack web development, embedded systems, and software engineering principles. I believe in writing clean, efficient code and building systems that genuinely make life easier.
+            </p>
+            <p>
+              Outside of code, I enjoy exploring new frameworks, contributing to collaborative projects, and constantly leveling up my skills in both frontend design and backend architecture.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-right">
+          <div class="glass-card timeline-card fade-up" style="animation-delay:.1s">
+            <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Education</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <span class="timeline-year">2023 – Present</span>
+                  <h4>BSc (Hons) Computing</h4>
+                  <p>Itahari International College<br /><em>2nd Year Running</em></p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <span class="timeline-year">2021 – 2023</span>
+                  <h4>+2 Science (NEB)</h4>
+                  <p>Higher Secondary Education</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-card goals-card fade-up" style="animation-delay:.2s">
+            <div class="card-icon"><i class="fas fa-bullseye"></i></div>
+            <h3>Goals &amp; Interests</h3>
+            <ul class="goals-list">
+              <li><i class="fas fa-chevron-right"></i> Build scalable full-stack web applications</li>
+              <li><i class="fas fa-chevron-right"></i> Develop smart IoT systems for real-world automation</li>
+              <li><i class="fas fa-chevron-right"></i> Contribute to open-source software projects</li>
+              <li><i class="fas fa-chevron-right"></i> Master system design and software architecture</li>
+              <li><i class="fas fa-chevron-right"></i> Pursue a career as a Software/Full-Stack Engineer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-category fade-up">
+          <div class="glass-card skill-card">
+            <div class="skill-cat-header">
+              <i class="fas fa-code"></i>
+              <h3>Frontend</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill"><i class="fab fa-react"></i> React.js</span>
+              <span class="pill"><i class="fab fa-html5"></i> HTML5</span>
+              <span class="pill"><i class="fab fa-css3-alt"></i> CSS3</span>
+              <span class="pill">Tailwind CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category fade-up" style="animation-delay:.05s">
+          <div class="glass-card skill-card">
+            <div class="skill-cat-header">
+              <i class="fas fa-server"></i>
+              <h3>Backend</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill"><i class="fab fa-node-js"></i> Node.js</span>
+              <span class="pill">Express.js</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category fade-up" style="animation-delay:.1s">
+          <div class="glass-card skill-card">
+            <div class="skill-cat-header">
+              <i class="fas fa-database"></i>
+              <h3>Databases</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">MongoDB</span>
+              <span class="pill">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category fade-up" style="animation-delay:.15s">
+          <div class="glass-card skill-card">
+            <div class="skill-cat-header">
+              <i class="fas fa-microchip"></i>
+              <h3>IoT &amp; Embedded</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">Arduino</span>
+              <span class="pill">C++</span>
+              <span class="pill">Sensor Integration</span>
+              <span class="pill">Servo Control</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category fade-up" style="animation-delay:.2s">
+          <div class="glass-card skill-card">
+            <div class="skill-cat-header">
+              <i class="fas fa-tools"></i>
+              <h3>Tools &amp; DevOps</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill"><i class="fab fa-git-alt"></i> Git</span>
+              <span class="pill"><i class="fab fa-github"></i> GitHub</span>
+              <span class="pill">Postman</span>
+              <span class="pill"><i class="fab fa-linux"></i> Linux</span>
+              <span class="pill">VS Code</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category fade-up" style="animation-delay:.25s">
+          <div class="glass-card skill-card">
+            <div class="skill-cat-header">
+              <i class="fas fa-chart-bar"></i>
+              <h3>Data &amp; Scripting</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill"><i class="fab fa-python"></i> Python</span>
+              <span class="pill">Pandas</span>
+              <span class="pill">NumPy</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category fade-up" style="animation-delay:.3s">
+          <div class="glass-card skill-card">
+            <div class="skill-cat-header">
+              <i class="fas fa-pencil-ruler"></i>
+              <h3>Design</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">UI/UX Principles</span>
+              <span class="pill">Wireframing</span>
+              <span class="pill">Prototyping</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category fade-up" style="animation-delay:.35s">
+          <div class="glass-card skill-card">
+            <div class="skill-cat-header">
+              <i class="fas fa-users"></i>
+              <h3>Soft Skills</h3>
+            </div>
+            <div class="skill-pills">
+              <span class="pill">Teamwork</span>
+              <span class="pill">Communication</span>
+              <span class="pill">Problem Solving</span>
+              <span class="pill">Team Management</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">My Work</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card glass-card fade-up">
+          <div class="project-header">
+            <div class="project-icon">
+              <i class="fas fa-store"></i>
+            </div>
+            <div class="project-links-top">
+              <a href="#" class="icon-link" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" class="icon-link" title="Live Demo" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Affiliate Marketing Nepal</h3>
+          <p class="project-desc">
+            A full-stack web-based affiliate marketing platform tailored for the Nepali market. Features include user dashboards, referral link management, commission tracking, and product listings.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">React.js</span>
+            <span class="stack-tag">Node.js</span>
+            <span class="stack-tag">MongoDB</span>
+            <span class="stack-tag">Express.js</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn btn-primary btn-sm" target="_blank">
+              <i class="fas fa-eye"></i> Live Demo
+            </a>
+            <a href="#" class="btn btn-outline btn-sm" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card glass-card fade-up" style="animation-delay:.1s">
+          <div class="project-header">
+            <div class="project-icon iot">
+              <i class="fas fa-parking"></i>
+            </div>
+            <div class="project-links-top">
+              <a href="#" class="icon-link" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Smart Car Parking System</h3>
+          <p class="project-desc">
+            An IoT-based smart parking management system using Arduino and ultrasonic sensors. Automates slot detection, gate control via servo motors, and displays real-time availability on an LCD.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Arduino</span>
+            <span class="stack-tag">C++</span>
+            <span class="stack-tag">Ultrasonic Sensors</span>
+            <span class="stack-tag">Servo Control</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn btn-primary btn-sm" target="_blank">
+              <i class="fas fa-play"></i> View Demo
+            </a>
+            <a href="#" class="btn btn-outline btn-sm" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- More projects placeholder -->
+        <div class="project-card glass-card fade-up more-card" style="animation-delay:.2s">
+          <div class="more-inner">
+            <div class="more-icon"><i class="fas fa-plus-circle"></i></div>
+            <h3>More Coming Soon</h3>
+            <p>Currently building new projects. Stay tuned for updates!</p>
+            <a href="https://github.com/prajwal0150" class="btn btn-outline btn-sm" target="_blank">
+              <i class="fab fa-github"></i> See GitHub
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let's Work Together</h2>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Info -->
+        <div class="contact-info fade-up">
+          <div class="glass-card contact-info-card">
+            <p class="contact-tagline">
+              Have a project in mind, want to collaborate, or just want to say hi? My inbox is always open.
+            </p>
+            <div class="contact-items">
+              <a href="mailto:raihangrim064@gmail.com" class="contact-item">
+                <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+                <div class="ci-text">
+                  <span class="ci-label">Email</span>
+                  <span class="ci-value">raihangrim064@gmail.com</span>
+                </div>
+              </a>
+              <a href="tel:9742565463" class="contact-item">
+                <div class="ci-icon"><i class="fas fa-phone"></i></div>
+                <div class="ci-text">
+                  <span class="ci-label">Phone</span>
+                  <span class="ci-value">+977 9742565463</span>
+                </div>
+              </a>
+              <a href="https://linkedin.com/in/prajwal-rai17975a3b3" target="_blank" class="contact-item">
+                <div class="ci-icon"><i class="fab fa-linkedin"></i></div>
+                <div class="ci-text">
+                  <span class="ci-label">LinkedIn</span>
+                  <span class="ci-value">prajwal-rai17975a3b3</span>
+                </div>
+              </a>
+              <a href="https://github.com/prajwal0150" target="_blank" class="contact-item">
+                <div class="ci-icon"><i class="fab fa-github"></i></div>
+                <div class="ci-text">
+                  <span class="ci-label">GitHub</span>
+                  <span class="ci-value">github.com/prajwal0150</span>
+                </div>
+              </a>
+              <a href="https://instagram.com/prajwalrai724" target="_blank" class="contact-item">
+                <div class="ci-icon"><i class="fab fa-instagram"></i></div>
+                <div class="ci-text">
+                  <span class="ci-label">Instagram</span>
+                  <span class="ci-value">@prajwalrai724</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="contact-form-wrap fade-up" style="animation-delay:.1s">
+          <div class="glass-card form-card">
+            <h3>Send a Message</h3>
+            <form class="form" id="contactForm">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="title" placeholder="Project / Collaboration / Query" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or idea..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full" id="sendBtn">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="nav-logo">PR<span class="dot">.</span></span>
+          <p>Building digital experiences that matter.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-socials">
+          <a href="https://linkedin.com/in/prajwal-rai17975a3b3" target="_blank" aria-label="LinkedIn" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/prajwal0150" target="_blank" aria-label="GitHub" class="social-icon"><i class="fab fa-github"></i></a>
+          <a href="https://instagram.com/prajwalrai724" target="_blank" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:raihangrim064@gmail.com" aria-label="Email" class="social-icon"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Prajwal Rai. Crafted with <span class="heart">♥</span> in Nepal.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast">
+    <i class="fas fa-check-circle"></i>
+    <span>Message sent successfully!</span>
+  </div>
+
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
